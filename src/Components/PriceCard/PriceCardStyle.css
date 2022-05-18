@@ -1,0 +1,16 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  width: 25vh;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.cardContainer:hover {
+  background-color: hsl(236, 72%, 79%) to hsl(237, 63%, 64%);
+}
+
+.card-button {
+  width: 80%;
+  cursor: pointer;
+}
